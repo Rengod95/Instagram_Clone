@@ -1,3 +1,4 @@
 import React from 'react';
+import { Layout } from '../_components/Layout/Layout';
 
-export const ProfilePage = () => <div>ProfilePage</div>;
+export const ProfilePage = () => <Layout>ProfilePage</Layout>;
