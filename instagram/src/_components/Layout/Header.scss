@@ -14,5 +14,9 @@
 
   .logo {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4px;
   }
 }
