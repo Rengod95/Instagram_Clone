@@ -1,4 +1,29 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import { initialize, mswDecorator } from 'msw-storybook-addon';
+import { useEffect } from 'react';
+import { QueryClient, QueryClientProvider } from 'react-query';
+
+initialize();
+
+const queryClient = new QueryClient();
+export const decorators = [
+  mswDecorator,
+  (Story, { parameters }) => {
+    useEffect(
+      () => () => {
+        queryClient.clear();
+      },
+      []
+    );
+    return (
+      <div id="application">
+        <QueryClientProvider client={queryClient}>
+          <Story />
+        </QueryClientProvider>
+      </div>
+    );
+  },
+];
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
