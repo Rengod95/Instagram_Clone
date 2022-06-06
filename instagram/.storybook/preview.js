@@ -2,6 +2,7 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { initialize, mswDecorator } from 'msw-storybook-addon';
 import { useEffect } from 'react';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { StoryRouter } from 'storybook-react-router';
 
 initialize();
 

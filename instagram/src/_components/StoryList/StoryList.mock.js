@@ -4,7 +4,7 @@ import { storyListUrl } from './StoryList.hooks';
 export const storyList = [
   {
     id: 1,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -12,7 +12,7 @@ export const storyList = [
   },
   {
     id: 2,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -20,7 +20,7 @@ export const storyList = [
   },
   {
     id: 4,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -28,7 +28,7 @@ export const storyList = [
   },
   {
     id: 7,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -36,7 +36,7 @@ export const storyList = [
   },
   {
     id: 11,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -44,7 +44,7 @@ export const storyList = [
   },
   {
     id: 13,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -52,7 +52,7 @@ export const storyList = [
   },
   {
     id: 16,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -60,7 +60,7 @@ export const storyList = [
   },
   {
     id: 19,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -68,7 +68,7 @@ export const storyList = [
   },
   {
     id: 31,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
@@ -76,7 +76,7 @@ export const storyList = [
   },
   {
     id: 33,
-    username: 'imnotmoon',
+    username: 'username',
     userProfile: 'profile.png',
     sources: ['1.png', '2.png', '3.png'],
     uploadAt: '2022-06-07T13:30:32.803+0900',
