@@ -2,15 +2,15 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 'latest',
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['react', 'prettier', 'react-hooks'],
   rules: {
@@ -28,14 +28,20 @@ module.exports = {
     'generator-star-spacing': 'off',
     // allow empty reject
     'prefer-promise-reject-errors': 'off',
-    'react/jsx-no-duplicate-props': ['error', {
-      ignoreCase: true
-    }],
+    'react/jsx-no-duplicate-props': [
+      'error',
+      {
+        ignoreCase: true,
+      },
+    ],
     'react/jsx-no-undef': 'error',
-    'react/jsx-pascal-case': ['error', {
-      allowAllCaps: true,
-      ignore: []
-    }],
+    'react/jsx-pascal-case': [
+      'error',
+      {
+        allowAllCaps: true,
+        ignore: [],
+      },
+    ],
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
     'react/no-deprecated': 'error',
@@ -46,6 +52,6 @@ module.exports = {
     'react/require-render-return': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/self-closing-comp': 'error'
-  }
+    'react/self-closing-comp': 'error',
+  },
 };
