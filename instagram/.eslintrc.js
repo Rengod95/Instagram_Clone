@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:storybook/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -28,7 +28,12 @@ module.exports = {
     'generator-star-spacing': 'off',
     // allow empty reject
     'prefer-promise-reject-errors': 'off',
-    'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
+    'react/jsx-no-duplicate-props': [
+      'error',
+      {
+        ignoreCase: true,
+      },
+    ],
     'react/jsx-no-undef': 'error',
     'react/jsx-pascal-case': [
       'error',

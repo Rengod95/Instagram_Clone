@@ -10,9 +10,14 @@
   &_new {
     position: absolute;
     left: 1rem;
+    top: 10px;
   }
 
   .logo {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4px;
   }
 }
